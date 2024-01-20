@@ -1,0 +1,205 @@
+body, h1, h2, p, ul, li {
+    margin: 10;
+    padding: 8;
+    
+  }
+
+  /* Apply a box-sizing border-box to all elements */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  /* Style for the welcome section */
+  #welcome-section {
+    height: 100vh; /* Set height equal to viewport height */
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+  }
+  .additional-content {
+    margin-top: 20px;
+  }
+  
+  .additional-content p {
+    font-size: 80px;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Style for Social Media Icons */
+  .additional-content a {
+    margin-right: 10px;
+    font-size:20px ;
+  }
+  
+  .additional-content img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the icons circular */
+  }
+  
+  /* Style for the Profile Image */
+  .profile-image {
+    margin-top: 20px;
+    width: 200px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    border-radius: 100%; /* Make the image circular */
+    border: 2px solid #fff; /* Add a white border */
+  }
+  
+
+  /* Style for the projects section */
+  #projects {
+    padding: 5px;
+    background-color: black;
+  }
+
+  .project-tile {
+    margin-bottom: 20    px;
+  }
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project-tile {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .project-tile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .project-tile h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .project-tile p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .project-tile a {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-tile a:hover {
+    background-color: #2980b9;
+  }
+
+  #contact {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+  }
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+}
+  
+  .contact-section-header {
+    margin-bottom: 40px;
+  }
+  
+  .contact-section-header h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section-header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: blue;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn i {
+    margin-right: 5px;
+  }
+  
+  .btn.facebook {
+    background-color: #3b5998;
+  }
+  
+  .btn.github {
+    background-color: #333;
+  }
+  
+  .btn.twitter {
+    background-color: #55acee;
+  }
+  
+  .btn.mail {
+    background-color: #dd4b39;
+  }
+  
+  .btn.call {
+    background-color: #007bb5;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+
+  /* Style for the navbar */
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 50px;
+    text-align: center;
+  }
+
+  #navbar a {
+    color: white;
+    margin: 0 50px;
+    text-decoration: none;
+    font-size: 2em;
+  }
+
+  /* Media query for responsive design */
+  @media (max-width: 600px) {
+    #navbar a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
